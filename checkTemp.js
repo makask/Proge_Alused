@@ -19,15 +19,12 @@ function checkTemp(currentTemp = prompt("Enter temperature value: ")) {
 
     if(currentTemp<=20){
         console.log("Temperature is too cold...you are slowly freezing to death...");
-        document.write("Temperature is too cold...you are slowly freezing to death...");
         return -1;
     } else if(currentTemp >=21 && currentTemp <=40){
         console.log("Temperature is normal, you can sit back and relax!")
-        document.write("Temperature is normal, you can sit back and relax!");
         return 0;
     }else
         console.log("Temperature is too hot, welcome to hell!");
-        document.write("Temperature is too hot, welcome to hell!");
         return 1;
 }
 
